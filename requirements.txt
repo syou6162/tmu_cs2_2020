@@ -1,0 +1,9 @@
+pytest
+numpy
+scipy
+scikit-learn
+flake8
+Flask
+mypy
+pytest-flake8
+black

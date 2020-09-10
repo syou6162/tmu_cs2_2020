@@ -32,5 +32,5 @@ toml==0.10.1
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
 wcwidth==0.2.5
-Werkzeug==0.15.6
+Werkzeug==1.0.1
 zipp==3.1.0

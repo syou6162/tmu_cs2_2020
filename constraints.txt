@@ -5,7 +5,7 @@ scikit-learn==0.23.2
 flake8==3.8.3
 Flask==1.1.1
 mypy==0.720
-pytest-flake8==1.0.4
+pytest-flake8==1.0.6
 black==20.8b1
 ## The following requirements were added by pip freeze:
 appdirs==1.4.4

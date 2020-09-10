@@ -6,19 +6,6 @@
 - [講義資料](https://docs.google.com/presentation/d/1LWSENPWdwkG3LnxnRWEmL9xldHwdhg-52EDWv4m9MDU)
 - [提出課題用資料](https://colab.research.google.com/drive/1XiSMhsHM0w5SUY45AR4xtinFDujBEtO6)
 
-## Dockerイメージのビルド
-
-```sh
-docker build -f Dockerfile -t tmu_cs2 .
-```
-
-## Dockerコンテナの実行
-
-```
-docker run --rm -ti -v $PWD/anomaly_detection:/app/anomaly_detection -v $PWD/tests:/app/tests -v $PWD/data:/app/data -p 5000:5000 tmu_cs2
-```
-
-これ以降のコマンドはDockerコンテナ上で実行してください。
 
 ## 課題データのダウンロード
 
@@ -40,3 +27,22 @@ make test
 ```
 make format lint test
 ```
+
+## 参考: Docker上での実行
+2020年の講義ではDocker上での実行ではなく、Google Colab上での実行をします。もし、Dockerを使った開発を手元で体験したい人がいたら、以下を手元で実行してみましょう。
+
+- [Install Docker Desktop on Windows | Docker Documentation](https://docs.docker.com/docker-for-windows/install/)
+
+### Dockerイメージのビルド
+
+```sh
+docker build -f Dockerfile -t tmu_cs2 .
+```
+
+### Dockerコンテナの実行
+
+```
+docker run --rm -ti -v $PWD/anomaly_detection:/app/anomaly_detection -v $PWD/tests:/app/tests -v $PWD/data:/app/data -p 5000:5000 tmu_cs2
+```
+
+これ以降のコマンドはDockerコンテナ上で実行してください。

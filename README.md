@@ -1,11 +1,10 @@
 [![CircleCI](https://circleci.com/gh/syou6162/tmu_cs2.svg?style=shield)](https://circleci.com/gh/syou6162/tmu_cs2)
 
-# 首都大学東京 情報科学特論2
+# 東京都立大学 情報科学特論2
 吉田が担当した分の講義資料です。
 
-講義資料
-
-- https://docs.google.com/presentation/d/1eJNfgmdbO_9hbgG_yVFX9vOSpa2K4C36OB7RSlCObU0/edit#slide=id.g120af1f51ad1f071_509
+- [講義資料](https://docs.google.com/presentation/d/1LWSENPWdwkG3LnxnRWEmL9xldHwdhg-52EDWv4m9MDU)
+- [提出課題用資料](https://colab.research.google.com/drive/1XiSMhsHM0w5SUY45AR4xtinFDujBEtO6)
 
 ## Dockerイメージのビルド
 

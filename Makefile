@@ -10,7 +10,7 @@ format:
 	black anomaly_detection tests
 
 lint:
-	pytest -v --no-print-logs --flake8
+	pytest -v --flake8 tests
 
 freeze:
 	pip freeze -r requirements.txt | tee constraints.txt

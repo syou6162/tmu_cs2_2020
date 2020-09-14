@@ -8,6 +8,9 @@ class TestTrainer(unittest.TestCase):
         with open("data/train.pickle", mode="rb") as f:
             self.train_data = pickle.load(f)
 
+    def test_always_succeed(self):
+        assert True
+
     def test_train_and_save(self):
         trainer = Trainer()
         trainer.train(self.train_data["features"])

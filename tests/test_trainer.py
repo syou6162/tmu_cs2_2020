@@ -9,7 +9,7 @@ class TestTrainer(unittest.TestCase):
             self.train_data = pickle.load(f)
     
     def test_always_succeed(self):
-        assert False
+        assert True
 
     def test_train_and_save(self):
         trainer = Trainer()

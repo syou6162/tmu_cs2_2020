@@ -6,7 +6,7 @@ flake8==3.9.1
 Flask==1.1.2
 mypy==0.812
 pytest-flake8==1.0.7
-black==21.4b2
+black==21.5b0
 ## The following requirements were added by pip freeze:
 appdirs==1.4.4
 atomicwrites==1.4.0

@@ -3,7 +3,7 @@ version: 2
 jobs:
   lint_and_test:
     docker:
-      - image: circleci/python:3.9.4
+      - image: circleci/python:3.9.6
     working_directory: ~/work
     steps:
       - checkout

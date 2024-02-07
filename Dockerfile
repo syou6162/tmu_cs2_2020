@@ -1,4 +1,4 @@
-FROM python:3.10.5-slim
+FROM python:3.12.2-slim
 
 RUN apt-get -yq update && apt-get install -yq tk-dev git curl jq
 
